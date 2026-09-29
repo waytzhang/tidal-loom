@@ -1,0 +1,48 @@
+{
+  "durationSeconds": 78.9,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "audio": false,
+  "source": "actual game canvas MediaRecorder captures",
+  "physicalHeadsetFootage": false,
+  "edits": "trimmed segments, labeled crops, captions; original speed",
+  "segments": [
+    {
+      "file": "desktop-three-islands.webm",
+      "start": 0,
+      "duration": 8,
+      "crop": null
+    },
+    {
+      "file": "iwer-first-play.webm",
+      "start": 19,
+      "duration": 15,
+      "crop": "crop=440:310:420:230"
+    },
+    {
+      "file": "iwer-first-play.webm",
+      "start": 76,
+      "duration": 18,
+      "crop": "crop=520:350:380:210"
+    },
+    {
+      "file": "desktop-three-islands.webm",
+      "start": 46,
+      "duration": 30,
+      "crop": null
+    },
+    {
+      "file": "desktop-three-islands.webm",
+      "start": 80,
+      "duration": 8,
+      "crop": null
+    }
+  ],
+  "bytes": 720680,
+  "fullDecodePassed": true,
+  "plannedDurationSeconds": 79,
+  "sha256": "ec453bc653f322160baee7ce631ee5f31c01fc5fcd401c2499d0879ee5a09549"
+}

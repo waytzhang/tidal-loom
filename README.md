@@ -2,6 +2,8 @@
 
 [Play in your browser](https://waytzhang.github.io/tidal-loom/). No installation or account is needed.
 
+[Watch the short demo](https://waytzhang.github.io/tidal-loom/tidal-loom-demo.mp4). Actual desktop and IWER canvas footage, edited to 1:18.90, silent, with labeled simulator close-ups. It is not physical headset footage.
+
 A small water-channel puzzle played on a floating tabletop. Turn the islands, follow the spring and connect every garden without leaving a spill. Three authored puzzles introduce branching paths, with growing flowers and optional synthesized chimes as feedback.
 
 The same puzzle works with a mouse, labeled keyboard-accessible buttons or WebXR hands. In XR, pinch and twist a channel, then release; a short pinch makes a quarter turn. Undo, Reset, Next and Exit are on the board, so play does not depend on a controller or a browser-side menu.
@@ -33,6 +35,8 @@ The static build is in `docs/site`. It needs no application server, API key, clo
 - Undo, restart, storage validation, refresh persistence and reduced-motion support.
 
 ## Verification and limits
+
+The production build was separately browser tested. All three islands were solved at the public HTTPS address. IWER also verified the board's Undo and Next buttons with a hand ray and pinch. A production startup cycle caused by awaiting the SDK initializer at module scope was fixed by starting asynchronously after module evaluation.
 
 Five logic checks verify the authored solutions, disconnected starting positions, blocked inlets, disconnected gardens, rotation and corrupt saves. Browser verification exercised a direct 3D click, Undo, all three complete islands, replay and refresh persistence. IWER entered an actual hand-mode XR session; moving, pinching, turning and releasing the emulated right hand changed the spring channel and the garden count. Exiting XR preserved the completed board and turn count. This is emulator evidence, not physical headset testing.
 

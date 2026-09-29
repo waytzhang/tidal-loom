@@ -13,8 +13,8 @@ Checked September 29, 2026 against the official [overview](https://start-develop
 
 1. User login and any developer-account setup at the official [Start application](https://developers.meta.com/horizon/programs/start/apply/). The current browser reaches Meta's login page. Do not invent account history, residency, age, employment or existing membership.
 2. Review the Start application and its actual eligibility list; complete project/background fields with truthful facts; the user must complete new-password and binding-agreement steps.
-3. Verify all three levels in the published build and retain the simulator evidence. Physical hardware checks remain desirable and unverified; no paid hardware purchase is proposed.
-4. Make a public, under-three-minute video of actual simulator play, clearly marked as emulation. Do not use generated gameplay or claim real headset footage.
+3. Physical hardware checks remain desirable and unverified; no paid hardware purchase is proposed. All three levels have been solved in the public build, and hand interaction plus the board's Undo and Next controls were verified in IWER.
+4. Publish the finished 1:18.90 actual-play demo on YouTube or Vimeo, as required by the competition's hosting instructions. The MP4 is publicly hosted with the game; that alone is not the specified entry video host. It is silent, clearly labels IWER footage and cropped views, and includes no generated gameplay or physical-headset claim.
 5. User review and final contest entry. Registration and a project draft are not proof of submission or payment.
 
 ## Project description draft
