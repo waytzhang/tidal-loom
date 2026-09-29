@@ -4,6 +4,9 @@ import { Group, Mesh, BoxGeometry, CylinderGeometry, SphereGeometry, PlaneGeomet
 import { LEVELS, DIRECTIONS, initialRotations, traceWater, loadProgress } from './puzzle.js';
 import { setupCapture } from './capture.js';
 
+// Finish evaluating the entry module before IWSDK's lazy initializer imports it.
+// Awaiting World.create at module scope creates a production-bundle cycle.
+async function start() {
 const $ = id => document.getElementById(id);
 const STORAGE = 'tidal-loom-v1';
 let saved = null;
@@ -186,3 +189,8 @@ try {
 } catch(error) {
   console.error(error);$('loading').textContent='The 3D view could not start. Try a browser with WebGL enabled.';
 }
+}
+start().catch(error=>{
+  console.error(error);
+  document.getElementById('loading').textContent='The 3D view could not start. Try a browser with WebGL enabled.';
+});
