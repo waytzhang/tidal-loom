@@ -2,6 +2,8 @@
 
 [Play in your browser](https://waytzhang.github.io/tidal-loom/). No installation or account is needed.
 
+[Download the web-host build](https://github.com/waytzhang/tidal-loom/releases/tag/v0.1.0-web). The ZIP is for HTML5 hosting; opening it directly from disk has not been verified.
+
 [Watch the short demo](https://waytzhang.github.io/tidal-loom/tidal-loom-demo.mp4). Actual desktop and IWER canvas footage, edited to 1:18.90, silent, with labeled simulator close-ups. It is not physical headset footage.
 
 A small water-channel puzzle played on a floating tabletop. Turn the islands, follow the spring and connect every garden without leaving a spill. Three authored puzzles introduce branching paths, with growing flowers and optional synthesized chimes as feedback.
