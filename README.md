@@ -6,6 +6,8 @@
 
 [Watch the short demo](https://waytzhang.github.io/tidal-loom/tidal-loom-demo.mp4). Actual desktop and IWER canvas footage, edited to 1:18.90, silent, with labeled simulator close-ups. It is not physical headset footage.
 
+[Share feedback or report a bug](https://github.com/waytzhang/tidal-loom/issues/new) after playing. GitHub sign-in is required to post.
+
 A small water-channel puzzle played on a floating tabletop. Turn the islands, follow the spring and connect every garden without leaving a spill. Three authored puzzles introduce branching paths, with growing flowers and optional synthesized chimes as feedback.
 
 The same puzzle works with a mouse, labeled keyboard-accessible buttons or WebXR hands. In XR, pinch and twist a channel, then release; a short pinch makes a quarter turn. Undo, Reset, Next and Exit are on the board, so play does not depend on a controller or a browser-side menu.
